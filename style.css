@@ -13,7 +13,7 @@ body {
 }
 
 #header {
-	width: 22.5em;
+	width: fit-content;
 	margin: 5em auto 0;
 	padding: 0.5em;
 	box-sizing: border-box;
@@ -25,9 +25,9 @@ body {
 	text-align: center;
 }
 #header img {
-	width: 15em;
+	width: 10em;
+	padding: 0 2.5em;
 	margin: auto;
-	display: block;
 }
 
 #nav {
@@ -61,8 +61,8 @@ a {
 }
 
 #content {
-	width: 50em;
-	margin: auto;
+	max-width: 50em;
+	margin: auto 1em;
 	padding: 1em;
 	box-sizing: border-box;
 	
@@ -79,13 +79,11 @@ table {
 	border-color: #ffffff80;
 	border-radius: 0.5em;
 	border-spacing: 0;
-	
 }
 td, th {
 	border-style: none none solid;
 	border-color: #ffffff80;
 	padding: 0.5em;
-	font-size: 1.5em;
 }
 tr:last-child > td, tr:last-child > th {
 		border-style: none;
