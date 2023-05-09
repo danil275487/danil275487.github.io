@@ -8,6 +8,7 @@
 body {
 	background: url("media/bg.png");
 	color: white;
+	margin: auto 1em;
 	font-family: "seguisb";
 	font-size: 13px
 }
@@ -26,7 +27,6 @@ body {
 }
 #header img {
 	width: 10em;
-	padding: 0 2.5em;
 	margin: auto;
 }
 
@@ -62,7 +62,7 @@ a {
 
 #content {
 	max-width: 50em;
-	margin: auto 1em;
+	margin: auto;
 	padding: 1em;
 	box-sizing: border-box;
 	
@@ -70,8 +70,10 @@ a {
 	border-color: white;
 	border-radius: 0.5em;
 }
-
-table {
+#content p {
+	margin: 0.5em 0;
+}
+#content table {
 	width: fit-content;
 	box-sizing: border-box;
 	
@@ -80,11 +82,11 @@ table {
 	border-radius: 0.5em;
 	border-spacing: 0;
 }
-td, th {
+#content td, th {
 	border-style: none none solid;
 	border-color: #ffffff80;
 	padding: 0.5em;
 }
-tr:last-child > td, tr:last-child > th {
+#content tr:last-child > td, tr:last-child > th {
 		border-style: none;
 }
